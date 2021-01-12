@@ -39,7 +39,7 @@ WFC는 완전히 관찰되지 않는 상태(unobserved state)에서 비트맵을
 ## 타일맵 생성
 이 알고리즘의 가장 단순한 비자명한 예시는 NxN이 1x2일 때입니다. (사실 NxM이죠.) 만약 색상쌍(pairs of colors)의 확률을 저장하는 게 아닌, 색상 자체의 확률을 저장함으로써 해당 예시를 더욱 간략화한다면, 우리는 "단순 타일 모델(simple tiled model)"이라 불리는 것을 얻게 됩니다. 이 모델에서의 전파 단계는 그저 인접 제한 전파(adjacency constraint propagation)입니다. 단순 타일 모델을 샘플 비트맵이 아닌 타일 목록과 해당 타일들의 인접 데이터 (인접 데이터는 매우 작은 샘플의 큰 집합으로 볼 수 있습니다) 를 가지고서 초기화하는 것이 편리합니다.
 
-![](http://i.imgur.com/jIctSoT.gif)
+[GIF](http://i.imgur.com/jIctSoT.gif)
 
 실제 타일셋에서 가능한 모든 인접 타일쌍의 목록은 상당히 길 수 있으므로, 저는 열거 과정(enumeration)을 단축하기 위해 타일 대칭 시스템을 구현했습니다. 이 시스템에서 각 타일은 대칭 유형과(symmetry type) 함께 할당되어야 합니다.
 
