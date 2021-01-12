@@ -1,9 +1,9 @@
 [원본](https://twitter.com/exppad/status/1267045322116734977)
-
+---
 @ExUtumno가 텍스쳐 합성의 한 가지 방법으로서 소개한 #WaveFunctionCollapse 알고리즘은 @OskSta에 의해 3D 빌딩 생성에 꽤 멋지게 쓰이고 있습니다. 잠시만요, 뭐라구요? 어떻게 두 개가 연관이 있을 수가 있죠? 완전히 다른 분야인 것 같은데요!   
 ![](https://pbs.twimg.com/media/EZVxd-DWAAE5cNQ?format=jpg&name=large)
 *같은 알고리즘?*
-   
+---
 별개의 픽셀값: WFC는 여타 텍스쳐 합성 알고리즘과는 다릅니다. 픽셀 색상을 절대로 혼합하지 않기 때문이죠. WFC는 약간의 파랑색과 붉은색이 만나면 보라색이 된다는 걸 알 필요가 없습니다. 다른 알고리즘은 알아야 하는데도 말이죠.
 ![](https://pbs.twimg.com/media/EZVxhS3XYAAzT-E?format=jpg&name=large)
 
